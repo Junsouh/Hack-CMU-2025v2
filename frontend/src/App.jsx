@@ -41,8 +41,31 @@ function App() {
 
   function getFoodIcon(name) {
     const icons = {
-      'pizza': '🍕', 'chicken': '🍗', 'broccoli': '🥦', 'milk': '🥛', 
-      'yogurt': '🥛', 'carrot': '🥕', 'ice cream': '🍦', 'bread': '🍞'
+      'milk': '🥛',
+      'yogurt': '🥛',
+      'cheese': '🧀',
+      'egg': '🥚',
+      'butter': '🧈',
+      'lettuce': '🥬',
+      'spinach': '🥬',
+      'broccoli': '🥦',
+      'carrot': '🥕',
+      'tomato': '🍅',
+      'cucumber': '🥒',
+      'pepper': '🫑',
+      'apple': '🍎',
+      'banana': '🍌',
+      'strawberry': '🍓',
+      'grapes': '🍇',
+      'orange': '🍊',
+      'lemon': '🍋',
+      'chicken': '🍗',
+      'fish': '🐟',
+      'shrimp': '🦐',
+      'tofu': '⬜', 
+      'bread': '🍞',
+      'juice': '🧃',
+      'water': '💧',
     }
     const lowerName = name.toLowerCase()
     for (const [key, icon] of Object.entries(icons)) {
