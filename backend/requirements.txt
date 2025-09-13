@@ -1,0 +1,5 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+gunicorn==21.2.0
+SQLAlchemy==2.0.19
+pydantic==2.5.1
